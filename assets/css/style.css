@@ -6,9 +6,9 @@ body {
     background-image: url("../images/herringbone.png");
 }
 
-/* .navbar {
+.navbar {
     height: 100px;
-} */
+}
 
 .name {
     background: #4aaaa5;
@@ -20,9 +20,9 @@ body {
     margin: 8px;
 }
 
-/* .mr-auto {
+.mr-auto {
     margin: 115px;
-} */
+}
 
 /* .container {
     width: 600px;
@@ -34,7 +34,11 @@ body {
     border-width: 1px;
 } */
 
-/* #name1 {
+
+
+
+
+#name1 {
     background: #4aaaa5;
     color: white;
     font-size: 36px;
@@ -45,10 +49,10 @@ body {
 }
 
 #pages {
-    margin: 415px; */
+    margin: 415px;
 }
 
-#container1 {
+.container1 {
     width: 900px;
     padding: 20px 30px;
     margin: 25px auto;

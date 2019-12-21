@@ -6,17 +6,13 @@ body {
     background-image: url("../images/herringbone.png");
 }
 
-/* .navbar {
-    height: 100px;
-} */
-/* 
-.name {
+/* .name {
     background: #4aaaa5;
     color: white;
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     height: 200px;
-    padding: 29.5px;
+    padding: 14.5px;
     margin: 8px;
 } */
 
@@ -35,12 +31,8 @@ body {
 } */
 
 
-
-
-
 #name1 {
-    /* background: #4aaaa5; */
-    background: red;
+    background: #4aaaa5;
     color: white;
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
@@ -53,15 +45,27 @@ body {
     margin: 415px;
 } */
 
-.container1 {
+/* .container1 {
     width: 900px;
     padding: 20px 30px;
     margin: 25px auto;
     background: #ffffff;
     border-style: solid;
     border-color: #dddddd;
+    border-width: 1px; */
+/* } */
+
+
+#about {
+    margin: 15px 13% 35px 13%;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
     border-width: 1px;
+    
 }
+
+
 
 #me {
     width: 200px;

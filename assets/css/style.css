@@ -11,30 +11,13 @@ body {
     color: white;
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 14.5px;
-    margin: 0;
+    padding: 10px;
+    margin-left: 120px;
 }
-
 
 #pages {
-    margin-left: 390px;
+    margin-left: 295px;
 }
-
-
-
-/* .mr-auto {
-    margin: 115px;
-} */
-
-/* #name1 {
-    background: red;
-    color: white;
-    font-size: 36px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 14.5px;
-    margin: 7px;
-    
-} */
 
 #about {
     margin: 25px 13% 35px 13%;

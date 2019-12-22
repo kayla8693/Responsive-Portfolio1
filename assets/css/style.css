@@ -59,8 +59,7 @@ body {
 
 
 footer {
-    height: 50px;
-    width: 100%;
+    height: 70px;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    margin-top: -20px;
+}

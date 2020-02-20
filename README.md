@@ -1,10 +1,7 @@
-# Responsive-Portfolio1
-Redoing portfolio to make it responsive across devices
+# My Portfolio
 
-* Using Bootstrap, I recreated my portfolio site with the following items:
+A professional portfolio to showcase my applications to potential employers and clients. Utilizes HTML, CSS, and Bootstrap. My applications, which can be found on the Portfolios page, showcase the work that I have done up to date. My GitHub, LinkedIn, and email address are provided on the Contact page.
 
-   * A navbar
+Take a look at my work and let me know what you think!
 
-   * A responsive layout
-
-   * Responsive images
+https://kayla8693.github.io/my-portfolio/

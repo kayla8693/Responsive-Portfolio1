@@ -12,20 +12,54 @@ body {
     font-size: 36px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     padding: 10px;
-    margin-left: 120px;
+    margin-left: 195px;
 }
 
 #pages {
     margin-left: 295px;
 }
 
+#submit {
+    background-color: #4aaaa5;
+    color: white;
+    border: solid .5px lightgray;
+    padding: 5px 10px;
+}
+
 #about {
-    margin: 25px 13% 35px 13%;
+    margin: 25px auto 35px 13%;
     padding: 20px;
     background: #ffffff;
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
+}
+
+.online {
+    margin-top: 25px;
+    padding: 10px;
+    width: 220px;
+    background: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    height: 200px;
+    line-height: 42px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.social {
+    color: black;
+}
+
+.social:hover {
+    color: #4aaaa5;
+}
+
+#email {
+    font-size: 20px;
 }
 
 #me {
@@ -55,6 +89,10 @@ body {
     width: 200px;
     text-align: center;
     padding-top: 3px;
+}
+
+.image-text:hover {
+    color: black;
 }
 
 footer {

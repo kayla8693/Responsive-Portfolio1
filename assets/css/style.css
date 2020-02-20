@@ -74,6 +74,10 @@ body {
     width: 200px;
 }
 
+.image:hover {
+    opacity: .5;
+}
+
 .wrapper {
     position: relative;
 }
@@ -89,10 +93,6 @@ body {
     width: 200px;
     text-align: center;
     padding-top: 3px;
-}
-
-.image-text:hover {
-    color: black;
 }
 
 footer {

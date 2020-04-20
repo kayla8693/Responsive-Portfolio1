@@ -1,22 +1,21 @@
 body {
-    color: #777777;
+    background-color: #b0e4ea;
+    background-image: linear-gradient(to bottom right, #71eeb8, #0490bf);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #4e5252;
+
     height: 100%;
     margin: 0;
-    background-image: url("../images/herringbone.png");
 }
 
 .name {
-    background: #4aaaa5;
     color: white;
-    font-size: 36px;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    padding: 10px;
+    letter-spacing: 3px;
     margin-left: 195px;
 }
 
 #pages {
-    margin-left: 295px;
+    margin-left: 500px;
 }
 
 #submit {
@@ -29,10 +28,11 @@ body {
 #about {
     margin: 25px auto 35px 13%;
     padding: 20px;
-    background: #ffffff;
+    background: #e6e8e8;
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
+    border-radius: 15px;
 }
 
 .online {
@@ -43,6 +43,7 @@ body {
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
+    border-radius: 15px;
     height: 200px;
     line-height: 42px;
     font-size: 24px;
@@ -72,6 +73,8 @@ body {
 .image {
     height: 150px;
     width: 200px;
+    margin-left: 100px;
+    border-radius: 10px;
 }
 
 .image:hover {
@@ -85,8 +88,7 @@ body {
 .image-text {
     position: absolute;
     top: 100px;
-    left: 0;
-    right: 0;
+    left: 100px;
     background: #4aaaa5;
     color: white;
     height: 30px;
@@ -99,4 +101,9 @@ footer {
     height: 70px;
     background: #666666;
     border-top: 8px solid #4aaaa5;
+    text-align: center;
+}
+
+.footer-text {
+    margin-top: 15px;
 }

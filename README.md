@@ -4,4 +4,4 @@ A professional portfolio to showcase my applications to potential clients and em
 
 Take a look at my work and let me know what you think!
 
-https://kayla8693.github.io/my-portfolio/
+https://kgordon-portfolio.herokuapp.com/

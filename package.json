@@ -1,0 +1,28 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "A professional portfolio to showcase my applications to potential employers and clients. Utilizes HTML, CSS, and Bootstrap. My applications, which can be found on the Portfolios page, showcase the work that I have done up to date. My GitHub, LinkedIn, and email address are provided on the Contact page.",
+  "main": "script.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mailgun-js": "^0.22.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayla8693/Responsive-Portfolio1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayla8693/Responsive-Portfolio1/issues"
+  },
+  "homepage": "https://github.com/kayla8693/Responsive-Portfolio1#readme"
+}

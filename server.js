@@ -25,9 +25,9 @@ app.get("/contact", function (req, res) {
 });
 
 app.post("/mail", (req, res) => {
-    var apiKey = process.env.MAILGUN_API_KEY;
-    var domain = 'sandbox775150727ffc4e9f9bdf1a9dc2dbf806.mailgun.org';
-    var mailgun = require('mailgun-js')({ apiKey, domain });
+    const apiKey = process.env.MAILGUN_API_KEY;
+    const domain = 'sandbox7fcfa03e79db46efb3aa81f47bd48a9a.mailgun.org';
+    const mailgun = require('mailgun-js')({ apiKey, domain });
 
     const { from, subject, text } = req.body;
     console.log(req.body);

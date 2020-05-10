@@ -8,14 +8,19 @@ body {
     margin: 0;
 }
 
+@media screen and (min-width: 768px) {
+
 .name {
     color: white;
     letter-spacing: 3px;
     margin-left: 195px;
+    }
 }
 
-#pages {
+@media screen and (min-width: 768px) {
+    #pages {
     margin-left: 500px;
+    }
 }
 
 #submit {
@@ -26,7 +31,8 @@ body {
 }
 
 #about {
-    margin: 25px auto 35px 13%;
+    margin: 25px 11px 35px 13%;
+    flex: 70%;
     padding: 20px;
     background: #e6e8e8;
     border-style: solid;
@@ -42,6 +48,7 @@ body {
 }
 
 .online {
+    flex: 1%;
     margin-top: 25px;
     padding: 10px;
     width: 220px;
@@ -56,6 +63,17 @@ body {
     text-align: center;
     color: black;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 1000px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .online {
+        width: 480px;
+        margin: 10px 11px 35px 13%;
+    }
 }
 
 .social {
@@ -98,9 +116,7 @@ body {
     height: 150px;
     width: 200px;
     margin-left: 100px;
-    /* border-bottom-left-radius: 10px; */
     border-top-right-radius: 10px;
-
 }
 
 .image:hover {
@@ -134,7 +150,6 @@ body {
     width: 200px;
     text-align: center;
     padding-top: 3px;
-    /* border-bottom-left-radius: 9px; */
 }
 
 footer {

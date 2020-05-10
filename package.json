@@ -4,6 +4,7 @@
   "description": "A professional portfolio to showcase my applications to potential employers and clients. Utilizes HTML, CSS, and Bootstrap. My applications, which can be found on the Portfolios page, showcase the work that I have done up to date. My GitHub, LinkedIn, and email address are provided on the Contact page.",
   "main": "script.js",
   "dependencies": {
+    "@popperjs/core": "^2.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mailgun-js": "^0.22.0",

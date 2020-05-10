@@ -56,8 +56,6 @@ body {
     text-align: center;
     color: black;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-
-
 }
 
 .social {
@@ -79,11 +77,28 @@ body {
     padding-right: 15px;
 }
 
+.card {
+    width: 201.5px;
+    margin-left: 99px;
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-top: none;
+}
+
+.card2 {
+    margin-left: 99.5px;
+}
+
+.projectDescription {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
 .image {
     height: 150px;
     width: 200px;
     margin-left: 100px;
-    border-bottom-left-radius: 10px;
+    /* border-bottom-left-radius: 10px; */
     border-top-right-radius: 10px;
 
 }
@@ -119,7 +134,7 @@ body {
     width: 200px;
     text-align: center;
     padding-top: 3px;
-    border-bottom-left-radius: 9px;
+    /* border-bottom-left-radius: 9px; */
 }
 
 footer {
@@ -131,4 +146,8 @@ footer {
 
 .footer-text {
     margin-top: 15px;
+}
+
+.dropdown-backdrop {
+    position: static;
 }

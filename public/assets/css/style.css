@@ -148,6 +148,6 @@ footer {
     margin-top: 15px;
 }
 
-.dropdown-backdrop {
-    position: static;
+.dropdown-menu {
+    left: -90px;
 }
